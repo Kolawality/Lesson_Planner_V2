@@ -1,0 +1,39 @@
+body {
+    background-color: #79cbb8;
+    display: flex;
+    justify-content: center;
+    font-family: "Century Schoolbook";
+}
+
+.page {
+    width: 595px;
+    height: 842px;
+    background: white;
+}
+
+.page_container {
+    padding: 30px;
+    height: 100%;
+}
+
+#title_container {
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+#objective-entered {
+    margin-top: 10px;
+    color: grey;
+    font-style: italic;
+}
+
+#objective-label {
+    font-style: ;
+}
+
+
