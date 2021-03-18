@@ -36,10 +36,10 @@
         </div>
         <div class="main_wrapper">
             <div class="main_container">
-                <h2 id="test">What is your lesson objective?</h2>
+                <h2>What is your lesson objective?</h2>
                 <h4>Manageable, Measurable, Most important, Made first</h4>
                 <form action="./lessonplan.html" method="GET">
-                    <div class="mb-3">
+                    <div>
                         <label for="objective" class="form-label">
                             Students will be able to... </label
                         ><br />
@@ -49,15 +49,54 @@
                             rows="3"
                             name="objective"
                         ></textarea>
+                    </div>                    
+                    <h2>State three Success Criteria</h2>
+                    <h4>
+                        Success Criteria should refer to a concrete learning
+                        performance to indicate they are moving towads the
+                        lesson objective
+                    </h4>
+                    <div>
+                        <label for="success1" class="form-label">
+                            Success Criteria 1 </label
+                        ><br />
+                        <textarea
+                            class="form_control"
+                            id="success1"
+                            rows="1"
+                            name="success1"
+                        ></textarea>
                     </div>
-                    <div class="btn_container">
-                        <button
-                            class="btn"
-                            formtarget="_blank"
-                            onclick="passvalues();"
-                        >
-                            Submit
-                        </button>
+                    <div>
+                        <label for="success2" class="form-label">
+                            Success Criteria 2 </label
+                        ><br />
+                        <textarea
+                            class="form_control"
+                            id="success2"
+                            rows="1"
+                            name="success2"
+                        ></textarea>
+                        <div>
+                            <label for="success3" class="form-label">
+                                Success Criteria 3 </label
+                            ><br />
+                            <textarea
+                                class="form_control"
+                                id="success3"
+                                rows="1"
+                                name="success3"
+                            ></textarea>
+                        </div>
+                        <div class="btn_container">
+                            <button
+                                class="btn"
+                                formtarget="_blank"
+                                onclick="passvalues();"
+                            >
+                                Submit
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>
